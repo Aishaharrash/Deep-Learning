@@ -6,4 +6,3 @@ Example data:
 - The trial had 2100 participants, half were under 65 years old, half were 65 years or older.
 - Around 95% of patients 65 or older experienced side effects.
 - Around 95% of patients under 65 experienced no side effects.
-
