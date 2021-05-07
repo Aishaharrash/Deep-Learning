@@ -28,9 +28,22 @@ for i in range(1000):
     Train_samples.append(random_older)
     Train_labels.append(1)
 
-# for i in Train_labels:
-#     print(i)
-# for i in Train_samples:
-#     print(i)
+for i in Train_labels:
+    print(i)
+for i in Train_samples:
+    print(i)
+
+#the next step is to take these two lists and processing them
+Train_labels = np.array(Train_labels)
+Train_samples = np.array(Train_samples)
+Train_labels, Train_samples = shuffle(Train_labels, Train_samples)
+scaler = MinMaxScaler(feature_range=(0,1))
+scaled_train_samples = scaler.fit_transform(Train_samples.reshape(-1,1))
+
+for i in scaled_train_samples:
+    print(i)
+
+
+
 
 
