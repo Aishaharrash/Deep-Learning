@@ -1,5 +1,5 @@
-Data Preparation and Processing
-===============================
+Prepare and process numerical data
+==================================
 Example data:
 
 - An experimental drug was tested on individuals from ages 13 to 100 in a clinical trial.
