@@ -1,1 +1,1 @@
-Convulutional neural network
+Convolutional neural network
